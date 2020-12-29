@@ -1,0 +1,91 @@
+html {
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+ @font-face {
+    font-family: "Segoe Ui";
+    src: url("/fonts/segoeui/segoeui.ttf") format("truetype");
+       /*  url("/fonts/OpenSans-Regular-webfont.woff") format("woff"); */
+  } 
+
+body {
+    /*11.18.18 Changed font-family:'Titillium Web', Arial, Helvetica, sans-serif; */
+  /* font-family : ff-cocon-pro,Arial,Sans-Serif; */
+  /* font-family : roboto,Arial,Sans-Serif;
+   font-weight:200;
+   font-style: thin;*/
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, monospace;
+   font-style: normal;
+   font-weight: normal;
+   background-color:#fafafa;
+   
+   width:90%;
+   margin:0 auto;   
+}
+
+h1.banner {
+    margin-top:2rem;
+    width: 90%;
+    font-size: 3.0rem;
+    font-weight: normal;
+    text-align:center;
+    margin:0 auto;
+}
+
+
+
+
+div {
+    margin-top: 2em;
+    font-size: 1em;
+    color:#323130;
+    background-color:#f5f5f5;
+
+    
+    
+    /*box-shadow:  0 25.6px 57.6px 0 rgba(0,0,0,.22), 0 4.8px 14.4px 0 rgba(0,0,0,.18);*/
+   /* box-shadow:  0 3.2px 7.2px 0 rgba(0,0,0,.132), 0 0.6px 1.8px 0 rgba(0,0,0,.108);*/
+    /*box-shadow: 0 1.6px 3.6px 0 rgba(0,0,0,.132), 0 0.3px 0.9px 0 rgba(0,0,0,.108); */
+
+}
+.banner {
+   width: 85%;
+   /*background-color: blue;*/
+   margin: 0 auto; /*center horizontally*/
+}
+
+
+ul {
+    list-style:none;
+}
+
+ul li {
+    font-size:1.25rem;
+    color:#1a73e8;
+    text-align: center;
+}
+img {
+    max-width:90%;   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*
+
+@media (max-width:960px) {
+    
+    h1  {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width:600px) {
+    h1  {
+        font-size: 1.0rem;
+    }        
+}
+*/
